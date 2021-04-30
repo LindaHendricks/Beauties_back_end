@@ -18,6 +18,17 @@ class ImagesController < ApplicationController
         render json: @image
     end 
 
+    def edit
+        @images = Image.all
+        render json: @images
+    end
+
+    def update
+        image = Image.find(params[:id])
+        image.update(image_params)
+        render json: image
+    end
+
     def image_params
         params.require(:image).permit(:title, :picture, :description)
     end 
