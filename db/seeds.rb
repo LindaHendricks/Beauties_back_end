@@ -55,28 +55,26 @@ image5 = Image.create(title:"Girl red brow red lips", picture: "https://i.pinimg
 # image37# "./public/db-image/whitespa.jpg"
 # image38# "./public/db-image/yellowpullover.jpg"
 
-#firstname  lastname email  username  password_digest  age:integer location  bio avatar portfolio admin:boolean
 creative1 = Creative.create(firstname:"Linda", lastname:"Hendricks", email:"linda@iconsvoice.com", username:"LindaHendricks",  password_digest:"Soupe",  age:38, location:"Paris",  bio:"Creative Freelancer", avatar:"./public/db-image/LindaHendricks.jpg", portfolio:"https://linda-hendricks.com/", admin:false)
-
-creative2 = Creative.create(firstname:"Alexandra", lastname:"Ricardel", email:"Alex@ricardel.com", username:"AlexRicardel",  password_digest:"alex",  age:38, location:"Chicago",  bio:"Software Engineer", avatar:"./public/db-image/Alexandra Ricardel.jpg",portfolio:"https://linda-hendricks.com/", admin:false)
-
-creative3 = Creative.create(firstname:"Da-Mell", lastname:"Jaines", email:"Damell@jaines.com", username:"Da-Mell",  password_digest:"da-mell",  age:27, location:"New-York",  bio:"Software Engineer", avatar:"./public/db-image/Da-mell Jaines.png",portfolio:"https://linda-hendricks.com/", admin:false)
+creative2 = Creative.create(firstname:"Alexandra", lastname:"Ricardel", email:"Alex@ricardel.com", username:"AlexRicardel",  password_digest:"alex",  age:38, location:"Chicago",  bio:"Software Engineer", avatar:"https://ca.slack-edge.com/T02MD9XTF-U01JG6JA9LJ-8a747974abdc-512",portfolio:"https://linda-hendricks.com/", admin:false)
+creative3 = Creative.create(firstname:"Da-Mell", lastname:"Jaines", email:"Damell@jaines.com", username:"Da-Mell",  password_digest:"da-mell",  age:27, location:"New-York",  bio:"Software Engineer", avatar:"https://ca.slack-edge.com/T02MD9XTF-U01DR7UL0QK-9eb6c14510a0-512",portfolio:"https://linda-hendricks.com/", admin:false)
 
 
 # rails g resource Comment creative:belongs_to  image:belongs_to  note rating:integer 
 
-comment1 = Comment.create(creative: creative1, image: image2, note:"I don't like velvet", rating:1 )
+comment1 = Comment.create(creative: creative1, image: image2, note:"I don't like velvet", rating:1)
+
 comment2 = Comment.create(creative: creative2, image: image3, note:"I love the foam idea", rating:4)
-comment3 = Comment.create(creative: creative3, image: image5, note:"I always have a soft spot for photography", rating:5 )
+
 
 # rails g resource SavedImage creative:belongs_to  image:belongs_to
 
-SavedImage.create(creative: creative1, image: image1)
-SavedImage.create(creative: creative1, image: image2)
-SavedImage.create(creative: creative2, image: image3)
-SavedImage.create(creative: creative2, image: image4)
-SavedImage.create(creative: creative3, image: image1)
-SavedImage.create(creative: creative3, image: image4)
+# SavedImage.create(creative: creative1, image: image1)
+# SavedImage.create(creative: creative1, image: image2)
+# SavedImage.create(creative: creative2, image: image3)
+# SavedImage.create(creative: creative2, image: image4)
+# SavedImage.create(creative: creative3, image: image1)
+# SavedImage.create(creative: creative3, image: image4)
 
 # rails g resource LikedImage creative:belongs_to  image:belongs_to
 

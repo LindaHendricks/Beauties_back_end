@@ -32,6 +32,7 @@ class CreativesController < ApplicationController
 
     def update
         creative = Creative.find(params[:id])
+        
         creative.update(creative_params)
         render json: creative
     end
@@ -40,6 +41,11 @@ class CreativesController < ApplicationController
         creative = Creative.find(params[:id])
         creative.destroy
         render json: creative
+    end
+
+    def signin 
+        @creative = Creative.first
+        render json: @creative
     end
 
     # def login 

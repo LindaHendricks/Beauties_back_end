@@ -1,32 +1,32 @@
 class LikedImagesController < ApplicationController
     def index
-        @likedimages = LikedImage.all
-        render json: @likedimages
+        @likedImages = LikedImage.all
+        render json: @likedImages
     end
 
     def show
-        @likedimage = LikedImage.find(params[:id])
-        render json: @likedimage
+        @likedImage = LikedImage.find(params[:id])
+        render json: @likedImage
     end 
 
     def new 
-        @likedimages = LikedImage.all
-        render json: @likedimages
+        @likedImages = LikedImage.all
+        render json: @likedImages
     end 
     def create
-        @image = LikedImage.create(likedImage_params)
-        render json: @image
+        @likedImage = LikedImage.create(likedImage_params)
+        render json: @likedImage
     end 
 
     def edit
-        @likedimage = LikedImage.all
-        render json: @likedimage
+        @likedImage = LikedImage.all
+        render json: @likedImage
     end
 
     def update
-        likedimage = LikedImage.find(params[:id])
-        likedimage.update(likedimage_params)
-        render json: likedimage
+        likedImage = LikedImage.find(params[:id])
+        likedImage.update(likedImage_params)
+        render json: likedImage
     end
 
 
