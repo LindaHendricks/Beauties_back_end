@@ -1,13 +1,13 @@
 class CreativesController < ApplicationController
     
     def index
-        @creatives = Creative.all
-        render json: @creatives
+        creatives = Creative.all
+        render json: creatives
     end 
 
     def show
-        @creative = Creative.find(params[:id])
-        render json: @creative
+        creative = Creative.find(params[:id])
+        render json: creative
     end
     
     # def profile
@@ -16,18 +16,18 @@ class CreativesController < ApplicationController
     # end 
 
     def new
-        @creative = Creative.all
-        render json: @creative
+        creative = Creative.all
+        render json: creative
     end
 
     def create
-        @creative = Creative.create(creative_params)
-        render json: @creative
+        creative = Creative.create(creative_params)
+        render json: creative
     end
 
     def edit
-        @creatives = Creative.all
-        render json: @creative
+        creatives = Creative.all
+        render json: creative
     end
 
     def update
@@ -43,10 +43,10 @@ class CreativesController < ApplicationController
         render json: creative
     end
 
-    def signin 
-        @creative = Creative.first
-        render json: @creative
-    end
+    # def signin 
+    #     creative = Creative.first
+    #     render json: creative
+    # end
 
     # def login 
     #     @creative = Creative.find_by(email: params[:email])
@@ -58,6 +58,7 @@ class CreativesController < ApplicationController
     def creative_params
         #firstname  lastname email  username  password_digest  age:integer location  bio avatar portfolio admin:boolean
         params.require(:creative).permit(:firstname, :lastname, :email, :username, :password, :age, :location, :bio, :avatar, :portfolio, :admin)
+        # params.require(:creative).permit!
     end
 
     

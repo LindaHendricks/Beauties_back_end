@@ -1,25 +1,25 @@
 class SavedImagesController < ApplicationController
     def index
-        @savedimages = SavedImage.all
-        render json: @savedimages
+        saved_images = SavedImage.all
+        render json: saved_images
     end
 
     def show
-        @savedimage = SavedImage.find(params[:id])
-        render json: @savedimage
+        saved_image = SavedImage.find(params[:id])
+        render json: saved_image
     end 
 
     def new 
-        @savedimage = SavedImage.all
-        render json: @savedimage
+        saved_image = SavedImage.all
+        render json: saved_image
     end 
     def create
-        @savedimage = SavedImage.create(savedImage_params)
-        render json: @savedimage
+        saved_image = SavedImage.create(saved_image_params)
+        render json: saved_image
     end 
 
-    def savedImage_params
-        params.require(:savedImage).permit(:creative_id, :image_id)
+    def saved_image_params
+        params.permit(:creative_id, :image_id)
     end 
 
 end

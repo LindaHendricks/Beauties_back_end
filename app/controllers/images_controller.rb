@@ -1,7 +1,7 @@
 class ImagesController < ApplicationController
     def index
-        @images = Image.all
-        render json: @images
+        images = Image.all
+        render json: images
     end
 
     # def show
@@ -10,17 +10,17 @@ class ImagesController < ApplicationController
     # end 
 
     def new 
-        @image = Image.all
-        render json: @image
+        image = Image.all
+        render json: image
     end 
     def create
-        @image = Image.create(image_params)
-        render json: @image
+        image = Image.create(image_params)
+        render json: image
     end 
 
     def edit
-        @images = Image.all
-        render json: @images
+        images = Image.all
+        render json: images
     end
 
     def update

@@ -1,36 +1,36 @@
 class LikedImagesController < ApplicationController
     def index
-        @likedImages = LikedImage.all
-        render json: @likedImages
+        liked_Images = LikedImage.all
+        render json: liked_Images
     end
 
     def show
-        @likedImage = LikedImage.find(params[:id])
-        render json: @likedImage
+        liked_Image = LikedImage.find(params[:id])
+        render json: liked_Image
     end 
 
     def new 
-        @likedImages = LikedImage.all
-        render json: @likedImages
+        liked_Images = LikedImage.all
+        render json: liked_Images
     end 
     def create
-        @likedImage = LikedImage.create(likedImage_params)
-        render json: @likedImage
+        liked_Image = LikedImage.create(liked_Image_params)
+        render json: liked_Image
     end 
 
     def edit
-        @likedImage = LikedImage.all
-        render json: @likedImage
+        liked_Image = LikedImage.all
+        render json: liked_Image
     end
 
     def update
-        likedImage = LikedImage.find(params[:id])
-        likedImage.update(likedImage_params)
-        render json: likedImage
+        liked_Image = LikedImage.find(params[:id])
+        liked_Image.update(liked_Image_params)
+        render json: liked_Image
     end
 
 
-    def likedImage_params
-        params.require(:likedImage).permit(:creative_id, :image_id)
+    def liked_Image_params
+        params.permit(:creative_id, :image_id)
     end 
 end
