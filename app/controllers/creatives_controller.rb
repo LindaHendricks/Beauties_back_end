@@ -43,16 +43,6 @@ class CreativesController < ApplicationController
         render json: creative
     end
 
-    # def signin 
-    #     creative = Creative.first
-    #     render json: creative
-    # end
-
-    # def login 
-    #     @creative = Creative.find_by(email: params[:email])
-    #     render json: @creative
-    # end
-
     private
 
     def creative_params

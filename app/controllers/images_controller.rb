@@ -4,10 +4,10 @@ class ImagesController < ApplicationController
         render json: images
     end
 
-    # def show
-    #     @image = Image.find(params[:id])
-    #     render json: @image
-    # end 
+    def show
+        image = Image.find(params[:id])
+        render json: image
+    end 
 
     def new 
         image = Image.all

@@ -16,18 +16,29 @@ SavedImage.destroy_all
 Comment.destroy_all
 
 
-image1 = Image.create(title:"Eye Liner and Pink Blossom", picture:"https://i.pinimg.com/564x/57/e7/82/57e782190ec39aea577f4f070d8106c7.jpg", description: "Tow Women in white swimsuit about to jump in a swimmimg pool with red balloons")
-image2 = Image.create(title:"Hat Hot and Lips", picture: "https://i.pinimg.com/564x/13/96/6e/13966eb049bee30b38168941cbc50043.jpg", description:"Look like a worm bath with green plants and fruits")
 image1 = Image.create(title:"Eye Liner and Pink Blossom", picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description: "Tow Women in white swimsuit about to jump in a swimmimg pool with red balloons")
-image2 = Image.create(title:"Hat Hot and Lips", picture: "https://i.pinimg.com/564x/c8/a3/45/c8a345d1d3cb35ef6b311b93871a5394.jpg", description:"Look like a worm bath with green plants and fruits")
-image3 = Image.create(title:"Arab Spring", picture: "https://i.pinimg.com/564x/51/63/2f/51632f5e37824dee4e2625eb5ee65a0f.jpg", description:"A woman kiss us from a bath full of foam with a black sunglasses")
-image4 = Image.create(title:"Black and chic",picture:"https://i.pinimg.com/564x/c1/dc/8a/c1dc8a6bd240c9c13a0167344db271c8.jpg", description:"Lu")
-image5 = Image.create(title:"Girl red brow red lips", picture: "https://i.pinimg.com/564x/c4/a2/21/c4a221f229202d5dfe22eaf38ef35294.jpg", description:"Black girl with colorful graphics")
-image1 = Image.create(title:"Eye Liner and Pink Blossom", picture:"https://i.pinimg.com/564x/0a/71/6b/0a716b8a6947b8ab5559ab66862101a6.jpg", description: "Tow Women in white swimsuit about to jump in a swimmimg pool with red balloons")
-image2 = Image.create(title:"Hat Hot and Lips", picture: "https://i.pinimg.com/564x/39/1a/4b/391a4bb631628401fe1e86b47357340b.jpg", description:"Look like a worm bath with green plants and fruits")
-image3 = Image.create(title:"Arab Spring", picture: "https://i.pinimg.com/564x/15/74/1c/15741c382104893547a89a36c184d942.jpg", description:"A woman kiss us from a bath full of foam with a black sunglasses")
-image4 = Image.create(title:"Black and chic",picture:"https://i.pinimg.com/564x/2a/51/5e/2a515ed0ae740534e21ce63f27419138.jpg", description:"Lu")
-image5 = Image.create(title:"Girl red brow red lips", picture: "https://i.pinimg.com/564x/2f/eb/d5/2febd5efbafb8a4bc22345b52d0fa89d.jpg", description:"Black girl with colorful graphics")
+image2 = Image.create(title:"Hat Hot and Lips", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Look like a worm bath with green plants and fruits")
+image3 = Image.create(title:"Eye Liner and Pink Blossom", picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description: "Tow Women in white swimsuit about to jump in a swimmimg pool with red balloons")
+image4 = Image.create(title:"Hat Hot and Lips", picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Look like a worm bath with green plants and fruits")
+image5 = Image.create(title:"Arab Spring", picture: "https://i.pinimg.com/564x/0d/07/f4/0d07f417b5412e69c647f2afea0d1b0a.jpg", description:"A woman kiss us from a bath full of foam with a black sunglasses")
+image6 = Image.create(title:"Black and chic",picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Lu")
+image7 = Image.create(title:"Girl red brow red lips", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Black girl with colorful graphics")
+image8 = Image.create(title:"Eye Liner and Pink Blossom", picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description: "Tow Women in white swimsuit about to jump in a swimmimg pool with red balloons")
+image9 = Image.create(title:"Hat Hot and Lips", picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Look like a worm bath with green plants and fruits")
+image10 = Image.create(title:"Arab Spring", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"A woman kiss us from a bath full of foam with a black sunglasses")
+image11 = Image.create(title:"Black and chic",picture:"https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Lu")
+image12 = Image.create(title:"Girl red brow red lips", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Black girl with colorful graphics")
+image13 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/b8/b4/16/b8b416fd14d33151c813e717eb178260.jpg", description:"Bleu, yellow, green")
+image14 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/dd/7a/77/dd7a77fc8adb92d1e151681c77c2e656.jpg", description:"Bleu, yellow, green")
+image15 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Bleu, yellow, green")
+image16 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Bleu, yellow, green")
+image17 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/8d/fd/fc/8dfdfc63df6327a38df210995d727559.jpg", description:"Bleu, yellow, green")
+image18 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Bleu, yellow, green")
+image19 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/7c/17/b8/7c17b8fa7bfce1a1445b43254dc997eb.jpg", description:"Bleu, yellow, green")
+image13 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Bleu, yellow, green")
+image13 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Bleu, yellow, green")
+image13 = Image.create(title:"Double face girl", picture: "https://i.pinimg.com/564x/58/06/7c/58067cfc2333d07256c0bf5c90588fc6.jpg", description:"Bleu, yellow, green")
+
 # image6 =# "./public/db-image/blackgirlshavedheadredcheeks.jpg"
 # image7 =# "./public/db-image/bluejacketgirl.jpg"
 # image8 =# "./public/db-image/bodypunkprint.jpg"

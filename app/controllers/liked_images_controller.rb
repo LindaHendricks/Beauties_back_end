@@ -31,6 +31,6 @@ class LikedImagesController < ApplicationController
 
 
     def liked_Image_params
-        params.permit(:creative_id, :image_id)
+        params.require(:liked_image).permit(:creative_id, :image_id)
     end 
 end
