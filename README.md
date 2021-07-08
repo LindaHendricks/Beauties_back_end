@@ -1,24 +1,5 @@
-# README
+This application allows the end-user to browse, search, like, save, post comments and upload images, metadata.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Developed algorithms in Javascript and engineered the front end with React.js.
+- Modeled backend with a database on Ruby-on-Rails REST API.
+- Built user interface using Javascript, - React. Js and custom CSS with styled react components.
