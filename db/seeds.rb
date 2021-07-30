@@ -17,7 +17,7 @@ Comment.destroy_all
 
 
 image2 = Image.create(title:"Orange Hair and Pink Eye shadow", picture: "https://i.pinimg.com/564x/f8/1d/91/f81d9195c9fcad824d13c1395674278f.jpg", description:"Orange Short haircut hair with a glossy pink eye look")
-image3 = Image.create(title:"Gold brows", picture:"https://i.pinimg.com/564x/4f/dd/1b/4fdd1bc8d860cf69b43ddbbb9e479af8.jpg", description: "Gloden cream, striking shades with a wet look")
+image3 = Image.create(title:"Red Powder Eyes Shadow", picture: "https://i.pinimg.com/564x/4d/c6/e5/4dc6e54541ef2ccbe4badcbb5cf96eaf.jpg", description:"Matt deep and bloody red eyes shadow, abstract application")
 image4 = Image.create(title:"Frikles and pink cheeks", picture:"https://i.pinimg.com/564x/1d/ad/a9/1dada9db79ef0979974666bc0d6404b2.jpg", description:"A dusty pink blush applied with sweet frikles for a shinny but playful llok. ")
 image5 = Image.create(title:"Gold Eye-Liner", picture: "https://i.pinimg.com/564x/e8/a5/e4/e8a5e41a9cef8f0f4c3081084fa94266.jpg", description:"Golden line look for a cuting-edge attitude")
 image6 = Image.create(title:"Dowy look with Glitters",picture:"https://i.pinimg.com/564x/62/54/19/625419d96abe32aca5aab9451d49723e.jpg", description:"Sheer Foundation and brow with glitter for a shinny look")
@@ -33,11 +33,7 @@ image16 = Image.create(title:"Pink Blossom", picture: "https://i.pinimg.com/564x
 image17 = Image.create(title:"Orange Focus", picture: "https://i.pinimg.com/564x/8d/fd/fc/8dfdfc63df6327a38df210995d727559.jpg", description:"Orange and patchy")
 image18 = Image.create(title:"Rainbow colorful", picture: "https://i.pinimg.com/564x/d0/0f/5b/d00f5bfe9f971f5a2cdcbb4c837b4f97.jpg", description:"Bleu, yellow, green, pink on man")
 image19 = Image.create(title:"Dark Black Punk ", picture: "https://i.pinimg.com/564x/7c/17/b8/7c17b8fa7bfce1a1445b43254dc997eb.jpg", description:"Neo punk attitude")
-image19 = Image.create(title:"Blue Ocean Eyes", picture: "https://i.pinimg.com/564x/d7/55/a6/d755a670c7de4e7cee51efdf0ce57522.jpg", description:"Blue, smoky and free")
-
-
-
-
+image20 = Image.create(title:"Blue Ocean Eyes", picture: "https://i.pinimg.com/564x/d7/55/a6/d755a670c7de4e7cee51efdf0ce57522.jpg", description:"Blue, smoky and free")
 
 
 # image6 =# "./public/db-image/blackgirlshavedheadredcheeks.jpg"
